@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+   
+}
+ul li{
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+.navbar ul li ul{
+    position: absolute;
+    background-color: brown;
+    top: 100%;
+    display: none;
+}
+.navbar ul :hover ul {
+    display: block;
+   color: brown;
+}
+.navbar ul li ul li{
+    position: relative;
+   
+}
+.navbar ul li ul li ul{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+   
+ 
+}
+.navbar ul li ul li ul li{
+  display: none;
+}
+.navbar ul li ul li:hover ul li{
+    display: block;
+    
+}
